@@ -32,7 +32,7 @@ public class ProductControllerIntegrationTest {
     private ProductService productService;
 
     @Test
-    void hello() throws Exception {
+    void integration_test_gives_correct_sku_id() throws Exception {
         Product prod = new Product();
         prod.setSku_id(55609029);
         when(productService.getProduct(55609029))
