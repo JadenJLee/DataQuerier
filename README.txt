@@ -1,4 +1,8 @@
-This is a Spring Application that allows us to run a Spring instance locally to hit the endpoints to extract data from an Apache Solr Instance running locally.
+This is a Spring Application that allows me to query a csv or tsv file faster than Excel would allow for larger data sets.
+
+1. I perform a DB migration to my local MySQL DB
+2. Create an Apache Solr instance and allow it to communicate to MySQL database
+3. Query via postman of the endpoints as needed.
 
 To run DB migration (already done locally):
 1. Ensure lib/Product_feed.tsv or tsv file with similar column characteristics are loaded into the lib directory.
